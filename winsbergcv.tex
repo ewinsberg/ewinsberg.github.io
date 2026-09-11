@@ -1,0 +1,325 @@
+% Full reconstruction of Winsberg Impact SFU CV Feb 6.pdf.
+% Original entries, section order, and repeated presentation listings are retained.
+% New additions are marked NEW. Historical bibliography is transcribed, not silently revised.
+% Build for review: pdflatex -jobname=winsbergcv-review -interaction=nonstopmode -halt-on-error winsbergcv.tex
+\documentclass[10pt]{article}
+\usepackage[margin=0.78in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{sourcesanspro}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{needspace}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{eso-pic}
+\definecolor{cvGold}{HTML}{E6AD3F}
+\definecolor{cvCharcoal}{HTML}{222222}
+\definecolor{cvGray}{HTML}{686868}
+\definecolor{cvLink}{HTML}{168DA3}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.26em}
+\setlength{\fboxsep}{0pt}
+\color{cvGray}
+\hypersetup{hidelinks,pdftitle={Eric B. Winsberg - Curriculum Vitae},pdfauthor={Eric B. Winsberg}}
+\AddToShipoutPictureBG{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \draw[cvGold,line width=8pt] ([xshift=0.28in,yshift=-0.28in]current page.north west)
+      rectangle ([xshift=-0.28in,yshift=0.28in]current page.south east);
+  \end{tikzpicture}%
+}
+\newcommand{\cvsection}[1]{\par\Needspace{5\baselineskip}\vspace{0.75em}{\color{cvCharcoal}\large\bfseries\MakeUppercase{#1}}\par\vspace{0.14em}{\color{cvCharcoal}\hrule height 1.6pt}\vspace{0.28em}{\color{cvGray}\hrule height 0.35pt}\vspace{0.38em}}
+\newcommand{\cvsubsection}[1]{\par\Needspace{4\baselineskip}\medskip{\color{cvCharcoal}\bfseries\MakeUppercase{#1}}\par\vspace{0.12em}{\color{cvGray}\hrule height 0.35pt}\smallskip}
+\newcommand{\entry}[3]{\par\Needspace{4\baselineskip}{\color{cvCharcoal}\bfseries #1}\par\nopagebreak #2\par\nopagebreak #3\par\smallskip}
+\newcommand{\note}[1]{{\small #1\par}}
+\begin{document}
+\begin{tikzpicture}
+  \node[anchor=west,fill=cvCharcoal,text=white,minimum height=0.55in,inner xsep=0.18in] at (0,0) {\fontsize{25}{29}\selectfont\bfseries ERIC B. WINSBERG};
+  \fill[cvGold] (-0.22,-0.275) -- (0,-0.275) -- (0.10,0) -- (0,0.275) -- (-0.22,0.275) -- cycle;
+\end{tikzpicture}\par\vspace{0.15em}
+{\color{cvCharcoal}\bfseries Philosophy of Science $\cdot$ Ethics of Computer Simulation $\cdot$ Philosophy of Climate Science}\par
+\smallskip
+\begin{tabular}{@{}ll@{}}
+\textbf{Affiliation} & Department of History and Philosophy of Science, University of Cambridge \\
+\textbf{Address} & Free School Lane, Cambridge, UK \\
+\textbf{Web} & winsberg.net \\
+\textbf{Email} & ew652@cam.ac.uk \\
+\textbf{Phone} & (+1) 727-798-4060 \\
+\textbf{Citation information} & h-index: 31 $\cdot$ i10-index: 45 $\cdot$ Google Scholar citations: 5,324
+\end{tabular}
+
+\cvsection{Employment}
+\entry{British Academy Global Professor of History and Philosophy of Science}{University of Cambridge}{Cambridge, UK\hfill 2023 --}
+\entry{Professor of Philosophy}{University of South Florida (on leave 2023-2027)}{Tampa, FL\hfill 2014 --}
+\entry{Associate Professor of Philosophy}{University of South Florida}{Tampa, FL\hfill 2006 --}
+\entry{Assistant Professor of Philosophy}{University of South Florida}{Tampa, FL\hfill 2001 --}
+\entry{Postdoctoral Fellow}{Northwestern University}{Evanston, IL\hfill 1999 --}
+
+\cvsection{Education}
+\entry{Ph.D. in History and Philosophy of Science}{Indiana University}{Bloomington, IN\hfill 1999}
+\entry{B.A., History, Philosophy and Social Studies of Science and Medicine}{University of Chicago}{Chicago, IL\hfill 1989}
+
+\cvsection{Grants}
+\entry{Complex modelling and political decision making: Addressing technical and moral problems}{Winsberg, E.\\The British Academy}{2022-2026: \pounds890,000}
+\entry{Involving transdisciplinary model users in policy-oriented simulation modelling}{Collaborator [PI: Kate Johnson, University of British Columbia (UBC)]\\Social Sciences and Humanities Research Council; Canadian Institutes of Health Research; Micheal Smith Health Research BC}{2025-2028: CA\$199,543}
+\entry{Demographic factors in intended major and completed major: a comparison of philosophy and other disciplines}{Winsberg, E., Schwitzgebel, E., Thompson, M.\\American Philosophical Association}{2018: \$2,800}
+\entry{How can health economic models better reflect patient and public values? Understanding stakeholder perspectives and research priorities through the Peer Models Network}{Collaborator [PI: Mohsen Sadatsafavi, University of British Columbia (UBC)]\\Michael Smith Foundation for Health Research Convening and Collaborating Grant}{2021: CA\$15,000}
+
+\cvsection{Fellowships}
+\entry{British Academy Global Professor}{History and Philosophy of Science, University of Cambridge}{Cambridge, UK\hfill 2023-27}
+\entry{Visiting Scholar}{Institue for Practical Ethics, University of California San Diego, CA, USA}{2020}
+\entry{Senior Fellow}{Institute for Advanced Study, Leuphana University Lüneburg, Germany}{2016}
+\entry{Fellow}{Center for Advanced Study, MCMP, Ludwig Maximilians Universität Munich, Germany}{2013}
+\entry{Visiting Scholar}{Department of Philosophy, University of California Berkeley, CA, USA}{2013}
+\entry{Fellow}{Institute of Advanced Study, University of Durham}{Durham, UK\hfill 2008}
+\entry{Fellow}{Center for Interdisciplinary Studies (ZiF), University of Bielefeld}{Bielefeld, Germany\hfill 2006}
+
+\cvsection{Books}
+% NEW: title and in-press status supplied by the author.
+\entry{Science Without Deference: The hidden economy of expertise}{University of Chicago Press\\Eric Winsberg}{In press}
+\entry{Philosophy and Climate Science}{Cambridge University Press\\Eric Winsberg}{2018}
+\begin{itemize}[leftmargin=1.2em,nosep]
+\item Reviewed in: Notre Dame Philosophical Reviews, the British Journal for Philosophy of Science, Philosophy of Science, Journal for General Philosophy of Science, and Ethics, Policy and Environment.
+\item CHOICE Honorable Mention award, Atmospheric Science Librarians International
+\end{itemize}
+\entry{Science in the Age of Computer Simulation}{University of Chicago Press\\Eric Winsberg}{2010}
+\begin{itemize}[leftmargin=1.2em,nosep]
+\item Short list for the 2011 Lakatos Award
+\item Reviewed in: Science, Physics Today, Metascience, Notre Dame Philosophical Reviews, Theoria, Minds and Machines.
+\item Author meets critics at 2011 Eastern APA
+\end{itemize}
+\entry{Cambridge Elements: Models in Science and Decision Making}{Cambridge University Press\\Eric Winsberg and Stephanie Harvard}{2024}
+\entry{The Probability Map of the Universe: Essays on David Albert’s Time and Chance}{Harvard University Press\\Barry Loewer, Brad Weslake, and Eric Winsberg, eds.}{2023}
+\note{A collection of papers on the foundations of statistical mechanics and the arrow of time.}
+\entry{Climate Modeling: Philosophical and Conceptual Issues}{Palgrave Macmillan\\Elisabeth S. Lloyd and Eric Winsberg, eds.}{2018}
+\note{A collection of papers on the foundations of climate models. Contributors include Nancy Cartwright, Mathias Frisch, Reto Knutti, Michael Mann, Linda Mearns, Jonathan Rougier, Ben Santer, Nancy Cartwright, Elisabeth Lloyd, Jay Odenbaugh, Naomi Oreskes, Wendy Parker, and Eric Winsberg}
+
+\cvsection{Edited Journals}
+\entry{Special Issue on Gatekeeping in Science}{Synthese (ed. w/ Katherine Dormandy)}{2025}
+\entry{Special Issue on Climate Science}{Journal for General Philosophy of Science}{2014}
+
+\cvsection{Public Contributions}
+\cvsubsection{Documentary Film Subject}
+\entry{Moral Models: Crucial Decisions in the Age of Computer Simulation}{Salazar Film}{2022}
+\note{A 25-minute extended interview exploring the social and ethical significance of simulation modeling in the Covid-19 Pandemic}
+\cvsubsection{Video}
+\entry{Science \& Social Values: Values in Modelling}{Harvard, S., Winsberg, E.}{2020}
+\note{A 7-part video series on scientific modelling and social values, with a focus on health economics.}
+\cvsubsection{Print Media}
+% NEW
+\entry{Cutting-edge science has moved beyond Occam’s Razor}{Winsberg, E.\\IAI News}{3 July 2026}
+\entry{We Need Scientific Dissidents Now More than Ever: The early artificial consensus around Covid’s origins is a wake-up call}{Winsberg, E.\\The Chronicle of Higher Education}{2023}
+\entry{Coronavirus: why it’s dangerous to blindly ‘follow the science’ when there’s no consensus yet}{Winsberg, E., Schliesser, E., Levy, N.\\The Conversation}{2020}
+\entry{Climate and coronavirus: the science is not the same}{Winsberg, E., Schliesser, E.\\The New Statesman}{2020}
+\cvsubsection{Other Media}
+% NEW
+\entry{Confidence as a Service With Eric Winsberg}{Winsberg, E.\\Risky Science Podcast, Risk Market News}{18 March 2026}
+\entry{Epidemiological Modeling, Policy, and Covid-19}{Winsberg, E., Symons, J., Kaufman, D.\\Meaningoflife.tv}{2020}
+\entry{Pandemic and Policy, a virtual conversation with Elizabeth Anderson (University of Michigan -- Ann Arbor), Alexander Broadbent (University of Johannesburg) and Eric Winsberg (University of South Florida)}{Winsberg, E., Braodbent, A., Anderson, E.\\University of Cambridge Public Seminar in History and Philosophy of Science}{2020}
+
+\cvsection{Journal Articles}
+% NEW
+\entry{Trustworthiness, Non-Manipulation, and Public Health Guidance for Individuals}{Harvard, S., Winsberg, E.\\Philosophy of Medicine 7(1)}{2026}
+% Original online-publication dates retained; final issue citations added explicitly.
+\entry{Bureaucratic Science: A Public Choice Analysis of Gatekeeping during COVID-19.}{Winsberg, E.\\Synthese 207, article 10 (2026)}{Published online 2025}
+\entry{The Perverse Incentives of Climate Integration: Why Researchers Can’t Deliver What Funding Institutions Demand}{Winsberg, E.\\Philosophy and Public Affairs 54(1): 16--33 (2026)}{Published online 2025}
+% NEW
+\entry{A Reply to Bernstein, Jayaram, and Hutler’s “Assessing the Liberty-Based Case Against Pandemic Lockdowns”}{Winsberg, E.\\Kennedy Institute of Ethics Journal 35(2): 197--204}{2025}
+\entry{The ‘Values in Modelling’ framework for patient and public involvement in health economics modelling: development and application in the LEAP model project.}{Harvard, S., R. Carter, S. H. Chong, T. Lanier, Z. Zeyan, A. Adibi, S. Lee, C. Novacovik, M. Ewert, E. B. Winsberg, and K. Johnson.\\PharmacoEconomics}{2025}
+\entry{Managing Values in Science: A return to decision theory}{Winsberg, E.\\Kennedy Institute of Ethics Journal}{2025}
+\entry{Falsehoods Fly: a review essay}{Winsberg, E.\\The Journal of Value Inquiry}{2024}
+\entry{‘Managing values’ in health economics modelling: philosophical and practical considerations}{Harvard, S., Winsberg, E.\\Social Science and Medicine}{2024}
+\entry{Three Hidden Disagreements Over E-Cigarettes}{Harvard, S., Winsberg, E., Duan, K., Carlsten, C.\\Annals of the American Thoracic Society}{2024}
+\entry{Patient and Public Involvement in Health Economics Modelling Raises the Need for Normative Guidance}{Harvard, S., Winsberg, E.\\Pharmacoeconomics}{2023}
+\entry{Who is responsible for global health inequalities after Covid-19?}{Winsberg, E.\\Global Epidemiology}{2022}
+\entry{Purposes and Duties in Scientific Modeling}{Harvard, S., Winsberg, E.\\Journal of Epidemiology and Community Health}{2022}
+\entry{Putting Races on the Ontological Map: a Close Look at Spencer’s ‘New Biologism’ of Race.}{Winsberg, E.\\Biology \& Philosophy}{2022}
+\entry{The Epistemic Risk in Representation}{Harvard, S., Winsberg, E.\\Kennedy Institute of Ethics Journal}{2022}
+\entry{Causal Inference, Moral Intuition, and Modeling in a Pandemic}{Harvard, S., Winsberg, E.\\Philosophy of Medicine}{2021}
+\entry{Don’t Stop Thinking About Tomorrow!}{Winsberg, E.\\Pacific Philosophical Quarterly}{2021}
+\entry{Value Judgments in a COVID-19 Vaccination model: a Case Study in the Need for Public Involvement in Health-oriented Modelling}{Harvard, S., Winsberg, E., Symons, J., Adibi, A.\\Social Science \& Medicine}{2021}
+\entry{The Diversity of Philosophy Students and Faculty in the United States}{Schwitzgebel, E, Bright, L.K., Jennings, C.D., Thompson, M. and Winsberg, E.\\The Philosophers’ Magazine}{2021}
+\entry{This Paper Attacks a Strawman, and the Strawman Wins: A Reply to van Basshuyen and White}{Winsberg, E., Brennan, J, Surprenant, C.\\Kennedy Institute of Ethics Journal}{2021}
+\entry{A Modest Defense of Geoengineering Research}{Winsberg, E.\\Philosophy and Technology}{2021}
+\entry{How Government Leaders Violated Their Epistemic Duties during the SARS-CoV-2 Crisis}{Winsberg, E., Brennan, J, Surprenant, C.\\Kennedy Institute of Ethics Journal}{2020}
+\entry{Severe Weather Event Attribution: Why Values Won’t Go Away}{Winsberg, E., Oreskes N., Lloyd, E.\\Studies in History and Philosophy of Science}{2020}
+\entry{Hawking Radiation and Analogue Experiments: a Bayesian Analysis}{Dardashti, R., Hartmann, S., Thébault, K., Winsberg, E.\\Studies in History \& Philosophy of Modern Physics}{2019}
+\entry{An Antidote for Hawkmoths: a Response to Recent Arguments Grounded in the Topology of Dynamical Systems}{Nabergall, L., Navas, A., Winsberg, E.\\European Journal for Philosophy of Science}{2018}
+\entry{What does Robustness Teach us in Climate Science: a Re-appraisal}{Winsberg, E.\\Sythese}{2018}
+\entry{Values and Evidence: How Models Make a Difference}{Parker, W., Winsberg, E.\\European Journal for Philosophy of Science}{2017}
+\entry{The Adventures of Climate Science in the Sweet Land of Idle Dreams}{Winsberg, E., Goodwin, W.\\Studies in History and Philosophy of Modern Physics}{2016}
+\entry{Missing the Forest for the Fish: How Much does the ‘Hawkmoth effect’ Threaten the Viability of Climate Projections?}{Goodwin. W, Winsberg, E.\\Philosophy of Science}{2016}
+\entry{Confirmation via Analogue Simulation: What Dumb Holes could tell us about Gravity}{Dardashti, R., Thébault, K., Winsberg, E.\\British Journal for the Philosophy of Science}{2015}
+\entry{Accountability and Values in Radically Collaborative Research}{Winsberg, E., Huebner, B., Kukla, R.\\Studies in History and Philosophy of Science}{2014}
+\entry{Bumps on the Road to Here (from Eternity)}{Winsberg, E.\\Entropy 14(3), 390-406}{2012}
+\entry{Values and Uncertainties in the Predictions of Global Climate Models}{Winsberg, E.\\Kennedy Institute of Ethics Journal 22 (2), 111-137}{2012}
+\entry{Holism, Entrenchment, and the Future of Climate Model Pluralism}{Lenhard, J., and Winsberg, E.\\Studies in History and Philosophy of Modern Physics 41 (3): 253-262}{2012}
+\entry{A Tale of Two Methods}{Winsberg, E.\\Synthese 169 (3): 575-92}{2009}
+\entry{Laws and Chances in Statistical Mechanics}{Winsberg, E.\\Studies in History and Philosophy of Modern Physics 39 (4): 872-888}{2008}
+\entry{Handshaking Your Way to the Top: Inconsistency and Falsification in Intertheoretic Reduction}{Winsberg, E.\\Philosophy of Science 73: 582-594}{2006}
+\entry{Models of Success vs. the Success of Models: Reliability without Truth}{Winsberg, E.\\Synthese 152: 1-19}{2006}
+\entry{Laws and Statistical Mechanics}{Winsberg, E.\\Philosophy of Science 71: 707-718}{2004}
+\entry{Can Conditionalizing on the “Past Hypothesis” Militate Against the Reversibility Objections?}{Winsberg, E.\\Philosophy of Science 71: 489-504}{2004}
+\note{winner of 2004 award for outstanding Philosophy of Science article by a recent Ph.D}
+\entry{Quantum Life: Interaction, Entanglement, and Separation}{Winsberg, E. and Fine, A.\\Journal of Philosophy C: 80-97}{2003}
+\entry{Simulated Experiments: Methodology for a Virtual World}{Winsberg, E.\\Philosophy of Science 70: 105-125}{2003}
+\entry{Simulations, Models, and Theories: Complex Physical Systems and their Representations}{Winsberg, E.\\Philosophy of Science 68: S442-S454}{2001}
+\entry{Sanctioning Models: The Epistemology of Simulation}{Winsberg, E.\\Science in Context 12 (3): 275-92}{1999}
+
+\cvsection{Encyclopedia Entries}
+\entry{Computer Simulation in Science}{Winsberg, E.\\Stanford Encyclopedia of Philosophy}{2013}
+\entry{Computer Simulation and the Philosophy of Science}{Winsberg, E.\\Philosophy Compass, Vol 4}{2009}
+\entry{Simulation}{Winsberg, E.\\Oxford Companion to the History of Science}{2002}
+
+\cvsection{Book Chapters}
+\entry{Representational Risk}{Winsberg, E. and Harvard, S.\\Routledge Handbook on Science and Values, edited by Kevin Elliot and Ted Richards, Routledge}{2017}
+\entry{The Metaphysics of PROB and PH}{Winsberg, E.\\Time’s arrow and the Probability Structure of the World, edited by Loewer, B., Winsberg, E. and Weslake, B., Harvard University Press}{2023}
+\entry{Uncertainty Quantification in Climate Modelling}{Winsberg, E.\\Philosophical and Conceptual Issues in Climate Modeling, edited by Winsberg, E. and Lloyd, E., Palgrave MacMillan}{2018}
+\entry{Success and Scientific Realism: Considerations from the Philosophy of Simulation}{Winsberg, E. and Mirza, A.\\Routledge Handbook on Scientific Realism, edited by Juha Saatsi, Routledge}{2017}
+\entry{Making an Author in Radically Collaborative Research}{Huebner, B., Kukla, R. and Winsberg, E.\\The Collective Dimensions of Science, edited by Weisberg, Mayo-Wilson and Boyer, Oxford University Press}{2017}
+\entry{Deflationism, Pragmatism, and Metaphysics}{Kukla, R., and Winsberg, E.\\Aspects of Anti-Representationalism: Truth, Expression, Normativity, and Naturalism, edited by Steven Gross, Nicholas Tebben, and Michael Williams, Oxford University Press}{2015}
+\entry{A Function for Fictions: Expanding the Scope of Science}{Winsberg, E.\\Fictions in Science: Philosophical Essays on Modeling and Idealization edited by Suarez, M., Routledge}{2009}
+\entry{Value Judgments and the Estimation of Uncertainty in Climate Modeling}{Biddle, J. and Winsberg, E.\\New Waves in the Philosophy of Science, edited by Magnus, P.D., and Busch, J., Palgrave MacMillan}{2009}
+
+\cvsection{Book Reviews}
+\entry{Nature, the Artful Modeler}{Nancy Cartwright\\Notre Dame Philosophical Reviews}{2019}
+\entry{Simulation and Similarity}{Michael Weisberg\\Notre Dame Philosophical Reviews}{2013}
+\entry{Science without Laws: Model Systems, Cases, Exemplary Narratives}{A. Creager \& E. Lunbeck, eds\\Metascience, 18(2): 265-8}{2009}
+\entry{Model-Based Reasoning: Technology, Science, Values}{L. Magnani \& N. Nersessian,eds.\\Philosophy of Science}{2003}
+\entry{The Dappled World: Essays on the Boundaries of Science}{Nancy Cartwright\\Journal of Philosophy}{2002}
+% Placement of the collaborator note retained from the original page break.
+\note{with Frisch, M., Darling, K., and Fine, A.}
+\entry{Wittgenstein, Finitism and the Foundations of Mathematics}{Mathieu Marion\\Philosophy of Science}{2000}
+
+\cvsection{Summer Schools, etc. Taught}
+\entry{Scientific Models and Decision Making}{Davdison University}{North Carolina\hfill 2024}
+\entry{Climate Science: Historical, Philosophical and Sociological Issues}{University of Vienna}{Vienna, Austria\hfill 2022}
+\entry{Philosophy of Cosmology}{Western University and University of California, Irvine}{Gonderich, Ontario\hfill 2018}
+
+\cvsection{Presentations (selected, recent)}
+\entry{Title TBA}{Invited speaker, workshop on ambiguity, opacity, and modelling experimental data, University of Valladolid, Spain}{April 2027 (scheduled)}
+\entry{Bureaucratic Science: A Public Choice Analysis of Scientific Gatekeeping During the Pandemic}{Program in Ethics and Public Affairs, University Center for Human Values, Princeton University}{20 November 2025}
+
+\entry{Trustworthiness, Moral Epistemic Duties, \& Public Health Guidance: the Covid Case}{Keynote with Stephanie Harvard\\Evidence-Based Medicine Reconsidered, Center for Philosophy of Science, University of Pittsburgh}{6 April 2025}
+\entry{Representational Risk in Climate Models}{Stanford University\\Philosophy and the Environment Workshop}{December, 2024}
+\entry{Managing Vaues in Science: a return to decision theory}{University of Hannover\\SOCRATES workshop: Trust in Science}{June, 2024}
+\entry{From Modelling Climate Change to Modelling Epidemics and Beyond: Moral-Epistemic Duties in Model Building}{KU, Lueven, Belgium\\Biennial Herman Roelants Lecture on Science}{May, 2024}
+\entry{So Friggin’ Likely: Gatekeeping during the Covid Pandemic}{University of Innsbruck, Austria\\Scientific Gatekeeping}{April, 2024}
+% Repeated in original; retained rather than silently deduplicated.
+
+\entry{Managing Vaues in Science: a return to decision theory}{University of Bristol\\Department Colloquium}{October, 2023}
+\entry{What can Covid Modeling Teach us about public Participation in Science?}{University of Cambridge\\Department Colloquium}{February, 2023}
+\entry{Cost Benefit Models and their Alternatives}{University of Lund, Sweden\\Climate Economics Workshop}{September, 2023}
+\entry{A Modest Defense of Geoengineering Research: a Case Study in the Cost of Learning}{Utrecht, Netherlands\\the Institute for Marine and Atmospheric research Utrecht (IMAU)}{December, 2021}
+\entry{Value Judgments in Modeling and Causal Inference for Decision-Making}{University of British Columbia, BC, Canada\\Faculty of Pharmaceutical Sciences}{October, 2021}
+\entry{Value Judgments in a Covid-19 Vaccination Model}{University of Guelph, Ontario, CA\\Philosophy Department Colloquium}{October, 2021}
+\entry{The Joint Strategy in Simulation Modeling: Machine Learning in Parameterization}{Max Planck Institute for the History of Science, Berlin, Germany\\Approximation Methods: Historical and Philosophical Perspectives}{June, 2021}
+\entry{Severe Weather Event Attribution: Why Values Won’t Go Away}{Leibniz University, Germany\\10th Anniversary Conference of the Institute of Philosophy at the Leibniz University}{June, 2021}
+\entry{Causal Inference in Non-linear Systems}{Franke Program in Science and the Humanities, Yale University\\Understanding the Nature of Inference: Causation and Correlation}{June, 2021}
+\entry{Covid Modeling: How it Started, Where We are Now.}{George Mason University\\George Mason Pandemic Modeling Forum}{March, 2021}
+\entry{Simulations and Dark Matter}{Denver\\American Physical Society}{March, 2021}
+\entry{What is a Cause and Why does it always Precede its Effect? Reply to Carlo Rovelli}{Franke Program in Science and the Humanities, Yale University\\Understanding the Nature of Inference: Causation and Correlation}{February, 2021}
+\entry{Models, Values, and Precaution}{Online\\American Philosophical Association, Central Division meeting}{February, 2021}
+\entry{Philosophy, Science and Pandemics: Why the Models Failed Us}{Barcelona, Spain\\Barcelona Institute for Analytic Philophy}{November, 2020}
+\entry{Why Study Solar Radiation Management? A Case Study in the Cost of Acquiring New Evidence}{National Institute of Advanced Studies, Bengaluru\\Philosophy of Science Group in India}{September, 2020}
+\entry{A Modest Defense of Geoengineering Research}{University of California, San Diego\\Climate Technologies Workshop}{April, 2020}
+\entry{Simlulating Epidemics: Why the Models Failed Us}{Orlando, FL\\Winter Simulation Conference}{December, 2020}
+\entry{Evidence in Simulation}{Stillwater, Minnesota\\Seven Pines Conference}{June, 2018}
+\entry{Robustness Rebooted}{Seattle Washington\\Philosophy of Science Association}{November 2018}
+\entry{A Framework for Emergent Constraints in Climate Science}{Oxford, UK\\British Society for the Philosophy of Science}{July, 2018}
+\entry{Simulation in Cosmology}{Washington, DC\\American Philosophical Association Pacific Division Meeting}{April, 2017}
+\note{Invited symposium on physics and cosmology in practice}
+\entry{‘Testing this Extraordinary Scenario’: Simulation and Models of Big Bang Cosmology}{Irvine, California\\Methodology and Epistemology in Cosmology Conference}{February, 2017}
+\note{Plenary talk}
+\entry{Confirmation in Analog and Computer Simulation}{Washington, DC\\American Philosophical Association Eastern Division Meeting}{January, 2016}
+\note{Invited symposium on computer simulation}
+\entry{Threats to Model Confidence: A Cautionary Tale}{Copenhagen, Denmark\\Design Modeling Symposium}{October, 2015}
+\note{Keynote Address}
+\entry{How Important is the Hawkmoth Effect for Climate Science?}{Rotman Institute, London, ON, CA\\Knowledge and Models in Climate Science}{October, 2014}
+\note{Plenary talk}
+\entry{Author Meets Critics: Science in the Age of Computer Simulation}{Washington, DC\\American Philosophical Association Eastern Division Meeting}{December 2011}
+\note{Critics: Isabelle Peschard, Wendy Parker}
+\entry{Verification and Validation}{IRMACS, Burnaby, BC, Canada\\Scientific Modeling at SFU: Thematic Year 2011}{April, 2011}
+\note{Keynote Address}
+
+\cvsection{Other Presentations}
+\cvsubsection{Selected Invited Presentations since 2013}
+% Overlap with the preceding selected presentations is present in the original.
+\entry{A Modest Defense of Geoengineering Research: a Case Study in the Cost of Learning}{Utrecht, Netherlands\\the Institute for Marine and Atmospheric research Utrecht (IMAU)}{December, 2021}
+\entry{Value Judgments in Modeling and Causal Inference for Decision-Making}{University of British Columbia, BC, Canada\\Faculty of Pharmaceutical Sciences}{October, 2021}
+\entry{Value Judgments in a Covid-19 Vaccination Model}{University of Guelph, Ontario, CA\\Philosophy Department Colloquium}{October, 2021}
+\entry{The Joint Strategy in Simulation Modeling: Machine Learning in Parameterization}{Max Planck Institute for the History of Science, Berlin, Germany\\Approximation Methods: Historical and Philosophical Perspectives}{June, 2021}
+\entry{Severe Weather Event Attribution: Why Values Won’t Go Away}{Leibniz University, Germany\\10th Anniversary Conference of the Institute of Philosophy at the Leibniz University}{June, 2021}
+\entry{Causal Inference in Non-linear Systems}{Franke Program in Science and the Humanities, Yale University\\Understanding the Nature of Inference: Causation and Correlation}{June, 2021}
+\entry{Covid Modeling: How it Started, Where We are Now.}{George Mason University\\George Mason Pandemic Modeling Forum}{March, 2021}
+\entry{Simulations and Dark Matter}{Denver\\American Physical Society}{March, 2021}
+\entry{What is a Cause and Why does it always Precede its Effect? Reply to Carlo Rovelli}{Franke Program in Science and the Humanities, Yale University\\Understanding the Nature of Inference: Causation and Correlation}{February, 2021}
+\entry{Models, Values, and Precaution}{Online\\American Philosophical Association, Central Division meeting}{February, 2021}
+\entry{Philosophy, Science and Pandemics: Why the Models Failed Us}{Barcelona, Spain\\Barcelona Institute for Analytic Philophy}{November, 2020}
+\entry{Why Study Solar Radiation Management? A Case Study in the Cost of Acquiring New Evidence}{National Institute of Advanced Studies, Bengaluru\\Philosophy of Science Group in India}{September, 2020}
+\entry{A Modest Defense of Geoengineering Research}{University of California, San Diego\\Climate Technologies Workshop}{April, 2020}
+\entry{Severe Weather Event Attribution: Why Values Won’t Go Away}{University of California, San Diego\\Institute Colloquium, Institute for Practical Ethics}{March, 2020}
+\entry{A Modest Defense of Geoengineering Research}{Dalhousie University,NS, Canada\\Department Colloquiumm}{July, 2019}
+\entry{Severe Weather Event Attribution: Why Values Won’t Go Away}{Boston University, MA\\Department Colloquiumm}{April, 2019}
+\entry{Philosophy and Climate Science}{St Edwards University, TX\\Department Colloquiumm}{January, 2019}
+\entry{Simulation and Experiment}{University of Bristol, UK\\Workshop on Analog Experiments}{July, 2018}
+\entry{Values and Event Attribution}{University of Chicago\\Philosophy and Politics of Climate Change}{April, 2018}
+\entry{Model Skill}{Rome, Italy\\Will Science Remain Human}{March, 2018}
+\entry{Probability in Weather and Climate}{Ruhr-Universität Bochum\\Department Colloquium}{June 2016}
+\entry{Confirmation in Analog and Computer Simulation}{Leibniz Universität Hannover\\Department Colloquium}{April 2016}
+\entry{Confirmation in Analog and Computer Simulation}{MECS, Universität Leuphana\\Interferences|Events}{January 2016}
+\entry{Confirmation in Analog and Computer Simulation}{San Sebastian, Spain\\Modeling and Representation conference}{December 2015}
+\entry{Reflections on the Relationship between Verification and Validation in Computer Simulation}{Stuttgart, Germany\\Workshop on “The Art and Science of Simulation”}{October 2015}
+\entry{Reflections on the Relationship between Verification and Validation in Computer Simulation}{Hannover, Germany\\Workshop on “How to Build Trust in Computer Simulations: Towards a General Epistemology of Validation.”}{July 2015}
+\entry{Values and Uncertainties in the Predictions of Global Climate Models}{Pittsburgh Center for the Philosophy of Science, PA\\Workshop on ”Uncertainty in Climate Modeling”}{February 2015}
+\entry{The Adventures of Climate Science in the Sweet Land of Idle Arguments}{University of Pittsburgh Philosophy Department, PA\\Workshop on ” Climate Modeling and Public Policy”}{February 2015}
+\note{joint work with William Goodwin}
+\entry{Confirmation via Analogue Simulation: What Dumb Holes could tell us about Gravity}{Geneva, Switzerland\\Models and Experiments Workshop}{June, 2014}
+\note{joint work with Radin Dardashti and Karim Thébault}
+\entry{How Anti-realists Could Learn to Stop Worrying and Love Unobservables}{University of Maryland\\Department Colloquium}{March, 2014}
+\entry{How Anti-realists Could Learn to Stop Worrying and Love Unobservables}{LMU, Munich, Germany\\Reduction and Emergence in Science Workshop}{July, 2013}
+\entry{Confirmation via Analogue Simulation: What Dumb Holes Could Tell us About Gravity}{LMU, Munich, Germany\\Reduction and Emergence in Science Workshop}{July, 2013}
+\note{with Radin Dardashti and Karim Thébault}
+\entry{Handshaking Your Way to the Top}{Copenhagen, Denmark\\Multiscale Modeling and Architecture. Center for Information Technology and Architechture}{May 2013}
+\entry{Fuzzy Modularity}{Rice University, Houston, TX\\Cultures of Energy Spring Symposium}{April 2013}
+\entry{Climate Uncertainty and Ambiguity Aversion}{UC, Berkeley\\LMPS Colloquium}{March 2013}
+
+\cvsubsection{Selected Recent Peer-Reviewed Presentations}
+\entry{Robustness Rebooted}{Seattle Washington\\Philosophy of Science Association}{November 2018}
+\entry{A Framework for Emergent Constraints in Climate Science}{Oxford, UK\\British Society for the Philosophy of Science}{July, 2018}
+\entry{Missing the Forest for the Fish: Uncertainty in Climate Modeling}{Chicago, IL\\Philosophy of Science Association}{November 2014}
+\note{with William Goodwin}
+\entry{Confirmation via Analogue Simulation: What Dumb Holes Could Tell us About Gravity}{Chicago, IL\\Philosophy of Science Association}{November 2014}
+\note{with Radin Dardashti and Karim Thébault}
+\entry{Confirmation via Analogue Simulation: What Dumb Holes Could Tell us About Gravity}{Cambridge, UK\\British Society for the Philosophy of Science}{November 2014}
+\note{with Radin Dardashti and Karim Thébault}
+\entry{Deflationism, Pragmatism and Metaphysics}{Orlando, Florida\\Florida Philosophical Association}{November 2012}
+\note{with with Rebecca Kukla}
+\entry{Deflationism, Pragmatism and Metaphysics}{University of Pittsburgh, PA\\New Science---New Risks: Center for Philosophy of Science}{March 2012}
+\entry{Levels of Shared Epistemic Norms}{Athens, Greece\\European Philosophy of Science Association}{October, 2011}
+\entry{Laws and Chances in Statistical Mechanics}{Amsterdam, Netherlands\\European Philosophy of Science Association}{October, 2009}
+
+\cvsection{Service}
+\cvsubsection{Profession}
+\textbf{Contributions to Diversity}\par
+Mentor for PSA’s Underrepresented Philosophy of Science Scholars Program
+\cvsubsection{Profession}
+\textbf{Grant review}\par
+NSF, National Humanities Center (USA); SSHRC (Canada); FWF (Austria); NWO (Netherlands); DFG (Germany); British Academy, Wellcome Trust (UK).
+\cvsubsection{Profession}
+\textbf{Journal referee}\par
+Philosophy of Science; British Journal for the Philosophy of Science; Philosopher’s Imprint; Erkenntnis; Synthese; Studies in History and Philosophy of Science; Studies in History and Philosophy of Modern Physics; Studies in History and Philosophy of Biology; Perspectives on Science; International Studies in Philosophy of Science; Cognitive Science; Entropy; Kennedy Institute of Ethics Journal; Philosophy of Technology; Public Affairs Quarterly; Simulation and Gaming; Erasmus Journal for Philosophy and Economics; Royal Society Open Science
+\cvsubsection{Profession}
+\textbf{Manuscript review}\par
+Cambridge University Press; University of Chicago Press; Routledge; Prentice-Hall.
+\cvsubsection{Profession}
+\textbf{Program Committees}\par
+Philosophy of Science Association; Models and Simulations Conferences: (MS1, MS2, MS3, MS4, MS5, MS7); Inconsistency Robustness
+\cvsubsection{Department}
+\textbf{Committees}\par
+Undergraduate Advisor; Undergraduate Committee (chair); Director of Placement; Philosophy of Mind Search Committee (co-chair); Special Committee on Logic and Critical Thinking (chair); Graduate Committee; Tenure and Promotion Committee (chair).
+\cvsubsection{University}
+\textbf{Committees}\par
+Honors and Awards Committee; Instructor Promotions Committee; special grade grievance committee.
+\end{document}
